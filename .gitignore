@@ -1,7 +1,9 @@
 www/config/database.php
+www/node_modules/
 www/storage/
 www/themes/*
 !www/themes/zanor-zanor-mdb-loaded/
 www/vendor/
 www/composer.lock
+www/package-lock.json
 .idea/
