@@ -1,0 +1,6 @@
+www/config/database.php
+www/storage/
+www/themes/*
+www/vendor/
+www/composer.lock
+.idea/
