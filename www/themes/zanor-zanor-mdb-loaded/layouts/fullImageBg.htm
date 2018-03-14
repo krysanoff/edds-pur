@@ -14,8 +14,11 @@ function onStart()
 {% partial 'site/head' %}
 {% partial 'site/scrollingNavbar' %}
 
-{variable name="introTitle" label="Intro Title" tab="Intro" type="text"}{/variable}
-{variable name="tagline" label="Tagline" tab="Intro" type="text"}{/variable}
+{variable name="introTitle" label="Заголовок" tab="Intro" type="text"}{/variable}
+{variable name="tagline" label="Подзаголовок" tab="Intro" type="text"}{/variable}
+{variable name="phone1Text" label="Телефон 1" tab="Intro" type="text"}{/variable}
+{variable name="phone2Text" label="Телефон 2" tab="Intro" type="text"}{/variable}
+{variable name="phone3Text" label="Телефон 3" tab="Intro" type="text"}{/variable}
 {variable name="btn1Text" label="Button 1 Text" tab="Intro" type="text"}{/variable}
 {variable name="btn1Link" label="Button 1 Link" tab="Intro" type="text"}{/variable}
 {variable name="btn2Text" label="Button 2 Text" tab="Intro" type="text"}{/variable}
@@ -34,9 +37,14 @@ function onStart()
             <li>
                 <h3 class="mb-5">{{ tagline }}</h3>
             </li>
+            <li class="phone_big_mod">
+                {{ phone1Text }}
+            </li>
             <li>
-                <a target="_blank" href="{{ btn1Link }}" class="btn btn-primary btn-lg" rel="nofollow">{{ btn1Text }}</a>
-                <a target="_blank" href="{{ btn2Link }}" class="btn btn-outline-white btn-lg" rel="nofollow">{{ btn2Text }}</a>
+                <span>{{ phone2Text }}</span>
+            </li>
+            <li>
+                <span>{{ phone3Text }}</span>
             </li>
         </ul>
     </div>

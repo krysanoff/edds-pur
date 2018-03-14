@@ -10847,4 +10847,15 @@ table.table-sm td {
   padding-bottom: 0.6rem;
 }
 
+.navbar-logo {
+  height: 2rem;
+  max-width: 100%;
+  fill: white;
+}
+
+.phone_big_mod {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=mdb.css.map */
