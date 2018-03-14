@@ -10,7 +10,10 @@ static-pages:
         layouts-half-page-carousel: {  }
         layouts-jumbotron: {  }
         layouts-team-profiles: {  }
+        layouts-sidebar: {  }
     subpages:
         subpages-child-one: {  }
         subpages-child-two: {  }
         subpages-child-three: {  }
+    o-nas: {  }
+    kontakty: {  }
