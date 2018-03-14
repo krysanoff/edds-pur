@@ -8,3 +8,4 @@ www/composer.lock
 www/package-lock.json
 .idea/
 /www/config/config.inc.php
+*.map
